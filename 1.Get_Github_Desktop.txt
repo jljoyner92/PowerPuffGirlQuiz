@@ -1,0 +1,7 @@
+First off download and install github desktop. This will serve as your primary interface for using the git version control system.
+
+Some required reading so you understand the motivation for learning this tool: https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa
+
+Read through this guide to understand the process https://guides.github.com/introduction/flow/
+
+Next read through this to create you first hello world github project https://guides.github.com/activities/hello-world/

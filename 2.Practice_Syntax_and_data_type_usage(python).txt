@@ -1,0 +1,60 @@
+The purpose of this short exercise is to make sure you understand what we talked about before about data types in python
+
+Refer to this infographic for a list of data types and examples. https://i.pinimg.com/originals/9b/39/47/9b3947aeeabd96ee3c9d4f85c323e9e2.jpg
+
+P.S. I know the information im providing is sparse. The intention of the exercise is for you to read online and learn as much as you can yourself (without taking a class) and to ask me questions as much as you want.
+You dont truly understand something if you cant talk to someone about it, so talk to me about it and it will definitely help you understand things better!
+
+the important types to use right now are integers, floats, strings, lists, and dicts. you can ignore everything else for right now.
+
+Good programmers spend a lot of time reading documentation online. This is the official python documentation, use at will: https://docs.python.org/3/
+
+Another good site to use as a beginner is geeks for geeks, but stay off of stackoverflow for now.
+
+For your first program, implement this https://i.pinimg.com/736x/80/0e/fe/800efe79e72d1bb233bfe24cede5d66f.jpg !!
+
+This is a simple state machine to help you practice writing conditional statements and controlling the flow of the program.
+You will probably have questions, dont be afraid to ask them.
+
+Here is an example of the User Experience that your program should produce something similar to this.
+
+############################################################
+## Which Powerpuff girl are you most like? Find out now!! ##
+############################################################
+
+Choose 1 or 2 for each question.
+Lets start:
+Your BFFs would say you're [ (1) Confident or (2) Fearless ]
+Your response > 1
+You chose confident! Next question...
+
+Help - a villian is destroying the city! You [ (1) Start by coming up with a plan! or (2) Have already smashed their kneecaps. Next? ]
+Your response > 1
+You chose Start by coming up with a plan!!
+
+
+You're * BLOSSOM * which means YOU'RE A LEADER.
+Every girl squad needs someone in charge - and for your group of.......on the fly.
+
+-------------------------------------------------------------------------------------------------------
+
+Here is some example code to help you get started
+
+print("Your BFFs would say you're [ (1) Confident or (2) Fearless ]")
+response = input("Your response > ")
+if int(response) == 1:
+    print("You chose confident! \n\r")
+    print("Help - a villian is destroying the city! You [ (1) Start by coming up with a plan! or (2) Have already smashed their kneecaps. Next? ]")
+    response = input("Your response > ")
+    if int(response) == 1:
+        print("You chose Start by coming up with a plan!")
+        print("You're BLOSSOM.......")
+        exit(0)
+    elif int(response) == 2:
+        print("You chose...")
+elif int(response) == 2:
+    print("you chose Fearless")
+    ...
+else:
+    print("You submitted an invalid response, exiting...")
+    exit(1)
